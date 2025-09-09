@@ -8,7 +8,8 @@ This project is an implementation of the classic **Rush Hour puzzle game**, deve
 
 ##  Search Algorithms
 - **Uninformed**: Breadth-First Search (BFS), Depth-First Search (DFS).  
-- **Informed**: Greedy Best-First Search, A*.  
+- **Informed**: Greedy Best-First Search, A*.
+  
 Algorithms return the list of moves that lead to the solution (or `None` if unsolvable).
 
 ## About the repository:
