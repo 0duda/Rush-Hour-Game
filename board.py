@@ -3,7 +3,7 @@ import time
     
 class Board:
 
-    def __init__(self, coordinates):        #initialize the board without the cars
+    def __init__(self, coordinates):       #initialize the board without the cars
         self.board = [
         ['0', '0', '0', '0', '0', '0'],
         ['0', '0', '0', '0', '0', '0'],
@@ -20,7 +20,7 @@ class Board:
         self.game_score = 0
         self.coordinates = coordinates    
     
-    def initial_board(self):    #initialize the board with the initial coordinates
+    def initial_board(self):   #initialize the board with the initial coordinates
         for j in self.coordinates:
             for i in self.coordinates[j]:
                 x = i[0]
